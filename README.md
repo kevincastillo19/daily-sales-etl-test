@@ -2,6 +2,8 @@
 
 A Python-based ETL (Extract, Transform, Load) pipeline for processing daily sales data from CSV files and loading it into a PostgreSQL database.
 
+[Test scenario and use case](https://www.notion.so/Escenario-1-ETL-Batch-Reporte-Diario-de-Ventas-2389cb4af73d803ba8b3cef1c7873dad?source=copy_link)
+
 ## Features
 
 - **Extract**: Read sales data from CSV files with robust encoding handling
