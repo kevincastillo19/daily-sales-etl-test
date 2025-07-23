@@ -1,0 +1,28 @@
+[project]
+name = "daily-sales"
+version = "0.1.0"
+description = "ETL para ventas diarias"
+authors = [
+    { name="Kevin Castillo", email="kevin.castillo@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["daily_sales"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+
+[tool.flake8]
+max-line-length = 88
+extend-ignore = ["E203", "W503"]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"

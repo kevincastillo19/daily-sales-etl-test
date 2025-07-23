@@ -1,0 +1,6 @@
+data/db/volume
+*__pycache__/
+*.pyc
+venv
+.env
+tmp/

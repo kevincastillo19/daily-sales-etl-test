@@ -1,0 +1,8 @@
+.git
+.gitignore
+venv
+.env.sample
+.pylintrc
+*__pycache__
+*.pyc
+tmp/
